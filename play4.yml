@@ -1,0 +1,9 @@
+---
+- name: print
+  hosts: localhost
+  tasks:
+  - command: python a.py
+    register: result
+
+  - debug:
+      var: result
