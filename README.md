@@ -30,3 +30,8 @@ CONFIGURATION SETTINGS ON SERVER FOR PASSWORD LESS LOGIN TO HOST SERVER FOR ANSI
 2. Provide Sudo access to new user
   $ visudo
   Go To Line: ## READ DROP IN FILES FROM /ETC/SUDOERS.D
+  
+  Check if winrm is open for Windows
+  ___________________________________________
+  
+  winrm enumerate winrm/config/Listener
